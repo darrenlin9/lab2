@@ -13,6 +13,7 @@ function initializePage() {
 		$('.jumbotron h1').text("Javascript is connected");
 	});
 
+<<<<<<< HEAD
 	$("a.thumbnail").click(projectClick);
 	// Add any additional listeners here
 	// example: $("#div-id").click(functionToCall);
@@ -24,4 +25,8 @@ function projectClick(e) { 
     // In an event handler, $(this) refers to      
     // the object that triggered the event      
     $(this).css("background-color", "#7fff00");
+=======
+	// Add any additional listeners here
+	// example: $("#div-id").click(functionToCall);
+>>>>>>> 7c9040f76b00d2b0949aaa336bb741e3a26e515e
 }
